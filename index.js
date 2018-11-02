@@ -65,7 +65,7 @@ function writeIntoFile( baseFilePath, path ) {
     });
 
     rl.on('line', function (line) {
-      let _line = line.replace('*COMPONENT_NAME*', $name);
+      let _line = line.replace(/_COMPONENT_NAME_/g, $name);
       rl.output.write(_line + '\n');
     })
 }

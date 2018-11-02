@@ -1,8 +1,8 @@
-import reducer from "./*COMPONENT_NAME*.reducer";
-import * as actions from "./*COMPONENT_NAME*.action";
+import reducer from "./_COMPONENT_NAME_.reducer";
+import * as actions from "./_COMPONENT_NAME_.action";
 import store from '../../../db/store';
 
-describe('*COMPONENT_NAME*', () => {
+describe('_COMPONENT_NAME_', () => {
   it('sample test', async () => {
     expect(true).toBe(true);
   })

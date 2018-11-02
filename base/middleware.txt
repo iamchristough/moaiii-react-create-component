@@ -1,8 +1,8 @@
 // @flow
-import * as actions from './*COMPONENT_NAME*.action';
+import * as actions from './_COMPONENT_NAME_.action';
 
 export default {
-  '[*COMPONENT_NAME*] AN_EXAMPLE_ACTION_TYPE': async (store, next, action) => {
+  '[_COMPONENT_NAME_] AN_EXAMPLE_ACTION_TYPE': async (store, next, action) => {
 
   }
 }

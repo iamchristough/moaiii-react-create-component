@@ -6,7 +6,7 @@ let initialState = {};
 
 export default (state: State = initialState, action): State => {
   switch (action.type) {
-    case "[_COMPONENT_NAME_] AN_EXAMPLE_ACTION_TYPE": {
+    case "[WTF] AN_EXAMPLE_ACTION_TYPE": {
       return {
         ...state,
       };

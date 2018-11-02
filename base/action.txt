@@ -1,6 +1,5 @@
 // @flow
-import {networkActionCreator} from "../../lib/redux";
-import type {NetworkActionCreator} from "../../lib/redux";
+import {actionCreator, networkActionCreator} from "../../lib/redux";
 
-export const exampleActionCreator: NetworkActionCreator<any, void> 
-  = networkActionCreator("[GLOBAL] GET_ALL_CAKES");
+export const exampleActionCreator
+  = actionCreator("[_COMPONENT_NAME_] AN_EXAMPLE_ACTION_TYPE");

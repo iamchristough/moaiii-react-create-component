@@ -4,14 +4,14 @@ import * as React from "react";
 type Props = {};
 type State = {};
 
-const *COMPONENT_NAME* = ( {props} ): React.Element<'div'> => {
+const _COMPONENT_NAME_ = ( {props} ): React.Element<'div'> => {
   const {} = props;
 
   return(
-    <div className={`*COMPONENT_NAME*`}>
+    <div className={`_COMPONENT_NAME_`}>
     
     </div>
   )
 }
 
-export default *COMPONENT_NAME*;
+export default _COMPONENT_NAME_;
