@@ -1,0 +1,20 @@
+// @flow
+import {connect} from "react-redux";
+import store from "../../../db/store";
+import *COMPONENT_NAME* from "./*COMPONENT_NAME*.jsx";
+import * as action from "./*COMPONENT_NAME*.action";
+
+function mapStoreToProps( store ) {
+  return {
+
+  }
+}
+ 
+function mapDispatchToProps( dispatch ) {
+  return {
+
+  }
+}
+
+
+export default connect( mapStoreToProps, mapDispatchToProps )( *COMPONENT_NAME* );

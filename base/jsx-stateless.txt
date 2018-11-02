@@ -1,0 +1,17 @@
+// @flow
+import * as React from "react";
+
+type Props = {};
+type State = {};
+
+const *COMPONENT_NAME* = ( {props} ): React.Element<'div'> => {
+  const {} = props;
+
+  return(
+    <div className={`*COMPONENT_NAME*`}>
+    
+    </div>
+  )
+}
+
+export default *COMPONENT_NAME*;
