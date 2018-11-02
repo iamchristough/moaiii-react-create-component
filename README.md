@@ -28,7 +28,7 @@ Argument | What | Example
 1 | Where to put the new component | `--view`
 2 | Component name | `--ExampleName`
 3 | React component type | either `--stateful` or `--stateless`
-3 | Flag to connect component to redux and add action, middleware and reducer files | blank or `--redux`
+4 | Flag to connect component to redux with action, middleware and reducer files | blank or `--redux`
 
 ### Output
 ```$rcr --view --ExampleComp --stateful --redux```
