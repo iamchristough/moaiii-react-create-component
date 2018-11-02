@@ -22,6 +22,7 @@ Once installed globally you have access to the CLI command `$rcr`.
 An example command would be
 ```$rcr --view --ExampleComp --stateful --redux```
 
+
 Argument | What | Example
 ------------ | ------------- | -------------
 1 | Where to put the new component | `--view`
@@ -31,9 +32,13 @@ Argument | What | Example
 
 ### Output
 ```$rcr --view --ExampleComp --stateful --redux```
+
 Creates the following files in `./src/ui/views`
+
 ![Example module created automatically](https://s3-eu-west-1.amazonaws.com/moaiii-cv/Screenshot+2018-11-02+at+12.53.05.png)
 
 ```$rcr --forms --AnotherExample --stateless```
+
 Creates the following files in `./src/ui/views`
+
 ![Example module created automatically](https://s3-eu-west-1.amazonaws.com/moaiii-cv/Screenshot+2018-11-02+at+12.57.34.png)
