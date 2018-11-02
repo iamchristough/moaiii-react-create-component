@@ -1,0 +1,18 @@
+{
+  "name": "moaiii-react-create-component",
+  "version": "1.0.0",
+  "description": "A utility to boilerplate react components, inspired by ng-create ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christopher Melville",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.3",
+    "yargs": "^12.0.2"
+  },
+  "bin": {
+    "rcr": "./index.js"
+  }
+}
