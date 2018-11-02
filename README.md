@@ -1,10 +1,7 @@
-# React Create Component
+# ![Example module created automatically](https://s3-eu-west-1.amazonaws.com/moaiii-cv/react-icon.png) React Create Component
 
 ##### A global cli tool for creating modular react components. Inspired by ng-generate for Angluar. 
 ___
-
-
-![Example module created automatically](https://s3-eu-west-1.amazonaws.com/moaiii-cv/react-icon.png)
 
 
 ### Purpose
