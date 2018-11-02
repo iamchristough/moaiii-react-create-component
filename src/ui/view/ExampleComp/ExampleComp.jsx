@@ -4,7 +4,7 @@ import * as React from "react";
 type Props = {};
 type State = {};
 
-export default class WTF extends React.Component<Props, State> {
+export default class ExampleComp extends React.Component<Props, State> {
   constructor() {
     super();
 
@@ -23,7 +23,7 @@ export default class WTF extends React.Component<Props, State> {
     const { } = this.state;
 
     return (
-      <div className={`WTF`}>
+      <div className={`ExampleComp`}>
       </div>
     );
   }

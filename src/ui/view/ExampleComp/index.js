@@ -1,8 +1,8 @@
 // @flow
 import {connect} from "react-redux";
 import store from "../../../db/store";
-import WTF from "./WTF.jsx";
-import * as action from "./WTF.action";
+import ExampleComp from "./ExampleComp.jsx";
+import * as action from "./ExampleComp.action";
 
 function mapStoreToProps( store ) {
   return {
@@ -17,4 +17,4 @@ function mapDispatchToProps( dispatch ) {
 }
 
 
-export default connect( mapStoreToProps, mapDispatchToProps )( WTF );
+export default connect( mapStoreToProps, mapDispatchToProps )( ExampleComp );
