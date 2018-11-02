@@ -2,6 +2,11 @@
 
 ##### A global cli tool for creating modular react components. Inspired by ng-generate for Angluar. 
 ___
+
+
+![Example module created automatically](https://s3-eu-west-1.amazonaws.com/moaiii-cv/react-icon.png)
+
+
 ### Purpose
 This tool helps developers structure their react applications by feature. This is converse to structuring your app by type. 
 More on this in the React docs here https://reactjs.org/docs/faq-structure.html

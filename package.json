@@ -1,7 +1,7 @@
 {
   "name": "moaiii-react-create-component",
-  "version": "1.0.4",
-  "description": "A utility to boilerplate react components, inspired by ng-create ",
+  "version": "1.0.7",
+  "description": "A utility to boilerplate react components, inspired by ng-generate ",
   "main": "index.js",
   "repository": {
     "type": "git",
