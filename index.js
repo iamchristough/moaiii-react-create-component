@@ -24,13 +24,13 @@ const $redux = $[4];
 let componentFolderPaths = {};
 
 function createComponent() {
-  // create folder 
+  // create folder
   fs.mkdirSync(`${componentFolderPaths[$where]}/${$name}`);
 
   writeIntoFile( `${baseFilePaths.index}`, `${componentFolderPaths[$where]}/${$name}/index.js` );
   writeIntoFile( `${baseFilePaths.scss}`, `${componentFolderPaths[$where]}/${$name}/${$name}.scss` );
   writeIntoFile( `${baseFilePaths.test}`, `${componentFolderPaths[$where]}/${$name}/${$name}.test.js` );
-  
+
   if( $type === 'stateful' ) {
     writeIntoFile( `${baseFilePaths['jsx-stateful']}`, `${componentFolderPaths[$where]}/${$name}/${$name}.jsx` );
   } else if ( $type === 'stateless' ) {
@@ -44,8 +44,8 @@ function createComponent() {
   }
 }
 
-// automatically get folder paths 
-glob("./src/ui/**", {}, function (er, folders) {
+// automatically get folder paths
+glob("./src/**", {}, function (er, folders) {
   folders.forEach( folder => {
     const pathParts = folder.split('/');
     const name = pathParts[pathParts.length - 1];
@@ -54,7 +54,7 @@ glob("./src/ui/**", {}, function (er, folders) {
   createComponent(componentFolderPaths);
 });
 
-// write to file 
+// write to file
 function writeIntoFile( baseFilePath, path ) {
   let _path = path.replace('.', '');
 
